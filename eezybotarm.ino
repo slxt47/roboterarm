@@ -13,10 +13,11 @@
  *   Clock     (7)    -> Pin 12
  *
  * Servos (Signalleitung)     -> Arduino
- *   Basis-Drehung (MG995/946) -> Pin 3
- *   Hauptarm / Schulter      -> Pin 5
- *   Vorderarm / Ellbogen     -> Pin 6
+ *   Basis-Drehung (MG995/946) -> Pin 5
+ *   Hauptarm / Schulter      -> Pin 6
+ *   Vorderarm / Ellbogen     -> Pin 3
  *   Greifer (SG90)           -> Pin 9
+ *   (muss zu PIN_BASE/PIN_SHOULDER/PIN_ELBOW/PIN_GRIPPER unten passen)
  *   Servo + und -            -> EXTERNES 5-6 V Netzteil (min. 3 A), GND mit Arduino-GND verbinden!
  *
  * Bedienung:
